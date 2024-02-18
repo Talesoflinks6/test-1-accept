@@ -6,18 +6,18 @@ id_pattern = re.compile(r'^.\d+$')
 class Config(object):
 
     # Client Config 
-    API_ID = int(os.environ.get('API_ID', '')) # ⚠️ Required
-    API_HASH = os.environ.get('API_HASH', '') # ⚠️ Required
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '') # ⚠️ Required
+    API_ID = int(os.environ.get('API_ID', '21948646')) # ⚠️ Required
+    API_HASH = os.environ.get('API_HASH', '289bdc44e67dc6992150dd8cf731c5b7') # ⚠️ Required
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '6891263386:AAGdH44TNWeShyBn0qma1DEcpXBAAGksl9A') # ⚠️ Required
 
     # database config
-    DB_URL  = os.environ.get("DB_URL","") # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Rohit44:Rohit@2001@cluster0.pfgkii2.mongodb.net/?retryWrites=true&w=majority") # ⚠️ Required
 
     # Other Config 
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "") # ⚠️ Required
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Request_Accept69_Bot") # ⚠️ Required
     BOT_UPTIME  = time.time()
-    OWNER = int(os.environ.get('OWNER', '')) # ⚠️ Required
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) # ⚠️ Required
+    OWNER = int(os.environ.get('OWNER', '5521380948')) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002063351511")) # ⚠️ Required
     APPROVED_WELCOME_TEXT = os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYou're Auto Approved. ✅")
     LEAVING_BY_TEXT = os.environ.get("APPROVED_WELCOME_TEXT", "👋 Bye {mention} !\nSee You Soon by {title}\n\nYou Left. ⛔")
     FORCE_SUB = os.environ.get('FORCE_SUB', '') # ⚠️ Required
